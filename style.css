@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+
+p,
+h1, 
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #E6E6E6;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    margin-bottom: 3em;
+    background-color: #92a5b6fa;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    color: #14756df8;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    text-align: left;
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    padding-left: 20px;
+    flex-basis: 450px;
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.article {
+    margin-top: 2em;   
+}
+
+.paragraph {
+    font-size: 1.2rem;
+    color: #0f184eb0;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #163653b7;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1rem;
+    color: #252527b7;
+}
+
+h2 {
+    text-align: center;
+    color: #424242;
+}
+
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #c0bdb8cc;
+    flex: 0 0 auto;
+}
